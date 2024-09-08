@@ -1,0 +1,16 @@
+data:
+  mongodb:
+    username: spihgor
+    password: spihgor
+    host: localhost
+    port: 27018
+    authentication-database: admin
+
+server:
+  port: 8020
+
+
+application:
+  config:
+    product-url: http://localhost:8222/api/v1/products
+    order-url: http://localhost:8222/api/v1/order

@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      username: spihgor
+      password: spihgor
+      host: localhost
+      port: 27018
+      authentication-database: admin
+server:
+  port: 8090

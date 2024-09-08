@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: notification-server
+  config:
+    import: optional:configserver:http://localhost:8888
+
+  mail:
+    host: localhost
+    port: 1025
+    username: spihgor
+    password: spihgor
+    properties:
+      mail:
+        smtp:
+          trust: "*"
+          #add trusted
+        auth: true
+        starttls:
+          enabled: true
+        connectiontimeout: 5000
+        timeout: 3000
+        writetimeout: 5000

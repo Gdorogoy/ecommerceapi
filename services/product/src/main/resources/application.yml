@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: product-service
+  config:
+    import: optional:configserver:http://localhost:8888
+
+server:
+  port: 8050
+
+
+#
+#management:
+#  tracing:
+#    sampling:
+#      probability: 1.0
